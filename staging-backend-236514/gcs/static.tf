@@ -11,3 +11,6 @@ resource "google_storage_default_object_access_control" "static_files_public_rea
   role   = "READER"
   entity = "allUsers"
 }
+
+# Add null resource
+resource "null_resource" "example" {}
