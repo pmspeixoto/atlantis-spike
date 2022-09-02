@@ -64,3 +64,6 @@ resource "google_compute_global_forwarding_rule" "static_files" {
 
 # Null Resource for Spike
 resource "null_resource" "spike" {}
+
+# Null Resource for Spike 2
+resource "null_resource" "spike_2" {}
